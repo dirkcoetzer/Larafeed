@@ -1,5 +1,5 @@
 {
-    "name": "dotzecker/larafeed",
+    "name": "dirkcoetzer/larafeed",
     "description": "Feed (Atom and RSS) generator for Laravel 4",
     "keywords": ["laravel", "feed", "atom", "rss"],
     "license": "MIT",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DotZecker\\Larafeed\\": "src"
+            "dirkcoetzer\\Larafeed\\": "src"
         }
     },
     "minimum-stability": "stable"
