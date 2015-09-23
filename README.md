@@ -1,16 +1,16 @@
 Larafeed
 ========
-[![Total Downloads](https://poser.pugx.org/dotzecker/larafeed/downloads.png)](https://packagist.org/packages/dotzecker/larafeed)
+[![Total Downloads](https://poser.pugx.org/dirkcoetzer/larafeed/downloads.png)](https://packagist.org/packages/dirkcoetzer/larafeed)
 
 Feed (Atom and RSS) generator for Laravel 4
 
 
 ## Installation
 
-Begin by installing this package through Composer. Edit your project's `composer.json` file to require `dotzecker/larafeed`.
+Begin by installing this package through Composer. Edit your project's `composer.json` file to require `dirkcoetzer/larafeed`.
 
     "require": {
-        "dotzecker/larafeed": "1.*"
+        "dirkcoetzer/larafeed": "1.*"
     },
 
 Next, update Composer from the Terminal:
@@ -19,11 +19,11 @@ Next, update Composer from the Terminal:
 
 Once this operation completes, the next step is to add the service provider. Open `app/config/app.php`, and add a new item to the providers array.
 
-    'DotZecker\Larafeed\LarafeedServiceProvider'
+    'dirkcoetzer\Larafeed\LarafeedServiceProvider'
 
 Finally, you have to add the alias in the aliases array.
 
-    'Feed' => 'DotZecker\Larafeed\Facades\Larafeed'
+    'Feed' => 'dirkcoetzer\Larafeed\Facades\Larafeed'
 
 
 ## Usage

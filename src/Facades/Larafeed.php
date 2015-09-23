@@ -1,4 +1,4 @@
-<?php namespace DotZecker\Larafeed\Facades;
+<?php namespace dirkcoetzer\Larafeed\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

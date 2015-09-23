@@ -1,4 +1,4 @@
-<?php namespace DotZecker\Larafeed;
+<?php namespace dirkcoetzer\Larafeed;
 
 use URL;
 use View;
@@ -7,7 +7,7 @@ use Response;
 use Validator;
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
-use DotZecker\Larafeed\Exceptions\LarafeedException;
+use dirkcoetzer\Larafeed\Exceptions\LarafeedException;
 
 class Larafeed
 {

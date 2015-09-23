@@ -1,8 +1,8 @@
-<?php namespace DotZecker\Larafeed;
+<?php namespace dirkcoetzer\Larafeed;
 
 use Validator;
 use Carbon\Carbon;
-use DotZecker\Larafeed\Exceptions\EntryException;
+use dirkcoetzer\Larafeed\Exceptions\EntryException;
 
 class Entry
 {

@@ -1,4 +1,4 @@
-<?php namespace DotZecker\Larafeed;
+<?php namespace dirkcoetzer\Larafeed;
 
 use Illuminate\Support\ServiceProvider;
 
